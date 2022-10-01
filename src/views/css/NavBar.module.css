@@ -1,0 +1,18 @@
+.navContainer{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    top: 100;
+    right: 20;
+    left: 50;
+    margin: 30 30;
+}
+
+.logo{
+    margin-left: 2rem;
+}
+

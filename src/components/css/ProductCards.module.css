@@ -1,0 +1,41 @@
+.cardsContainer, .cardsContainerInverse{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+}
+
+.cardsContainerInverse{
+    flex-direction: row-reverse;
+}
+
+.bigImage{
+    width: 50vw;
+    display:flex;
+    /* flex-shrink: calc(1); */
+}
+
+.details{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigImage img{
+    width: inherit;
+}
+
+.details p{
+    padding-bottom: 3rem;
+}
+
+.details button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,38 @@
+.navElements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.products{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.individualProduct{
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-variant: small-caps;
+
+}
+
+.separator {
+    width: fit-content;
+    height: 50;
+    border-left:1px solid white;
+    padding-left: 45px;
+}
+
+.productBtn{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
