@@ -4,9 +4,10 @@ import rightArrow from '../assets/images/right-arrow-svgrepo-com.svg'
 
 function ProductCards({data}) {
   return data && data.map((product, index)=>(
-    <div className={index % 2 === 0 ? style.cardsContainer : style.cardsContainerInverse}>
+    <div id={product.name} className={index % 2 === 0 ? style.cardsContainer : style.cardsContainerInverse}>
       <div className={style.bigImage}>
         <img src={product.previewImage} alt={product.name} />
+        {index === 0 && <button>Shop</button>}
       </div>
       <div className={style.details}>
         <img src={product.productImage} alt={product.name} width={100} height={100}/>

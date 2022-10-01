@@ -1,5 +1,5 @@
 import React from 'react'
-import Carrousel from '../components/Carrousel'
+import Carrousel from '../components/Carousel'
 import ProductCards from '../components/ProductCards'
 import NavBar from './NavBar'
 import style from './css/Home.module.css'

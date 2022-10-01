@@ -11,10 +11,13 @@
 .bigImage{
     width: 50vw;
     display:flex;
+    position: relative;
+    justify-content: center;
     /* flex-shrink: calc(1); */
 }
 
 .details{
+    background-color: #f0f0f0;
     width: 50vw;
     display: flex;
     flex-direction: column;
@@ -28,6 +31,7 @@
 
 .details p{
     padding-bottom: 3rem;
+    color: #a3a3a3;
 }
 
 .details button{
@@ -38,4 +42,17 @@
     height: auto;
     display: flex;
     align-items: center;
+    color: #a3a3a3;
+}
+
+.bigImage button{
+    position: absolute;
+    border: 2px solid white;
+    background-color: transparent;
+    color: #f1f1f1;
+    width: 8rem;
+    height: 3.5rem;
+    cursor: pointer;
+    align-self: center;
+    text-transform: uppercase;
 }
