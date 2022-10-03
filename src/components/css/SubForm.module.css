@@ -1,0 +1,56 @@
+.subscriptionForm{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-bottom: 6rem;
+}
+
+.subscriptionForm small, .subscriptionForm h2{
+    text-transform: uppercase;
+}
+
+.subscriptionForm small{
+    color: #b3b4b5;
+}
+
+.subscriptionForm h2{
+    font-size: 2.5em;
+    font-weight: 100;
+    line-height: 3px;
+    font-weight: lighter;
+    color: #121212;
+    margin-bottom: 0.5em;
+}
+
+.subscriptionForm p {
+    font-size: 0.8em;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.form{
+    height: 3rem;
+    width: 37.5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form input {
+    width: inherit;
+}
+
+.form input, .form button{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+    font-family: inherit;
+}
+
+.error{
+    color: rgb(255, 86, 67);
+}

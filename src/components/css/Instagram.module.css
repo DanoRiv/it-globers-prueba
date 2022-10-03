@@ -1,0 +1,31 @@
+.instagramContainer{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    text-transform: uppercase;
+}
+
+.instagramContainer small{
+    color: #b3b4b5
+}
+
+.instagramContainer h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+    font-weight: 100;
+    line-height: 3px;
+    margin-top: 1.5rem;
+    font-weight: lighter;
+    color: #121212;
+}
+
+.photoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 1px;
+    justify-content: center;
+    margin: 3.5rem 0;
+}
