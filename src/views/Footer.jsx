@@ -4,6 +4,7 @@ import style from './css/Footer.module.css'
 
 function Footer({data}) {
   return (
+    <>
     <footer className={style.footerContainer}>
       <div className={style.column1}>
         <img alt='logo' src={'https://res.cloudinary.com/dannt/image/upload/v1664781482/pufi-app/pufi-logo-black_iyflye.png'} width={100} height={48}/>
@@ -41,6 +42,11 @@ function Footer({data}) {
         <img width={25} height={25} src="https://res.cloudinary.com/dannt/image/upload/v1664780848/pufi-app/25425_q9crxn.png" alt="instagram logo" />
       </div>
     </footer>
+    <div className={style.copyright}>
+      <p>PUFI Copyright 2017 - Todos los derechos reservados </p>
+      <img height={50} width={75} src="https://res.cloudinary.com/dannt/image/upload/v1664817547/pufi-app/Brandlive-1_wwm4py.png" alt="brandlive logo" />
+    </div>
+    </>
   )
 }
 
